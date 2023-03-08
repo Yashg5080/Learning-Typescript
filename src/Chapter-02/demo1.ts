@@ -53,7 +53,7 @@ interface Contact  {
     status?: ContactStatus;
 }
 
-interface Address {
+export interface Address {
     line1: string;
     line2: string;
     province: string;
@@ -79,3 +79,5 @@ let primaryContact: Contact = {
     id: 12345,
     name: "Jamie Johnson",
     status: "active",
+
+}
